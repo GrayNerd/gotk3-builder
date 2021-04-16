@@ -30,7 +30,7 @@ be passed by the calling function. However, this means that all widgets are avai
 imports the "gotk3-builder" package.
 
 There is no recovery from errors, all errors fatal out. This should not cause an issue as any error in the builder file
-that prevents a widget from loading is usual a fatal error. This is done to allow the following to be done in 2 lines
+that prevents a widget from loading is usually a fatal error. This is done to allow the following to be done in 2 lines
 rather than 16 lines:
 
 ```go
